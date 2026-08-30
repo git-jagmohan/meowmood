@@ -1,0 +1,155 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-inner">
+            <img src="./images/pumpkin.png" class="pumpkin-img">
+
+            <div>
+                <h2>🐱Memeow...</h2>
+                <h1>MeowMood</h1>
+            </div>
+
+            <button id="theme-toggle-btn" class="theme-toggle-btn">
+                🌙
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <h3>Select Your Current Emotion</h3>
+
+        <div class="controls-container">
+
+            <!-- Search -->
+            <input
+                type="text"
+                id="emotion-search"
+                class="emotion-search"
+                placeholder="Search emotion..."
+            >
+
+            <!-- Category Filter -->
+            <select id="category-filter" class="category-filter">
+                <option value="all">All Categories</option>
+                <option value="funny">Funny</option>
+                <option value="reaction">Reaction</option>
+                <option value="coding">Coding</option>
+                <option value="animals">Animals</option>
+            </select>
+
+            <!-- Original Emotion Radios -->
+            <div
+                class="emotion-radios"
+                id="emotion-radios">
+            </div>
+
+            <!-- Original GIF Checkbox -->
+            <div class="gifs-check">
+                <label
+                    for="gifs-only-option"
+                    class="gifs-check-label">
+                    Animated GIFs only
+                </label>
+
+                <input
+                    type="checkbox"
+                    id="gifs-only-option">
+            </div>
+
+            <!-- Buttons -->
+            <div class="action-buttons">
+
+                <button
+                    class="get-image-btn"
+                    id="get-image-btn">
+                    Get Image
+                </button>
+
+                <button
+                    class="random-meme-btn"
+                    id="random-meme-btn">
+                    🎲 Random Meme
+                </button>
+
+                <button
+                    class="favorites-btn"
+                    id="favorites-btn">
+                    ❤️ Favorites
+                </button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Meme Modal -->
+    <div
+        class="meme-modal"
+        id="meme-modal">
+
+        <button
+            class="meme-modal-close-btn"
+            id="meme-modal-close-btn">
+            X
+        </button>
+
+        <div id="meme-modal-inner"></div>
+
+        <div class="meme-actions">
+
+            <button
+                id="favorite-meme-btn"
+                class="favorite-meme-btn">
+                ❤️ Add to Favorites
+            </button>
+
+            <button
+                id="download-meme-btn"
+                class="download-meme-btn">
+                ⬇ Download
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- Favorites Section -->
+    <section
+        class="favorites-section"
+        id="favorites-section">
+
+        <div class="favorites-header">
+
+            <h2>My Favorite Memes</h2>
+
+            <button
+                id="close-favorites-btn"
+                class="close-favorites-btn">
+                X
+            </button>
+
+        </div>
+
+        <div
+            class="favorites-container"
+            id="favorites-container">
+        </div>
+
+    </section>
+
+    <script src="index.js" type="module"></script>
+
+</body>
+
+</html>
