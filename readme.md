@@ -67,8 +67,7 @@ After completing the original learning project, I extended it with:
 
 ## 🚀 Live Demo
 
-Coming soon.
-
+🌐 https://memeowmood.netlify.app/
 ## 📚 Acknowledgement
 
 Originally inspired by the Meme Picker project from Scrimba's JavaScript course, then extended with additional features and a redesigned UI.
