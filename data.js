@@ -212,7 +212,7 @@ export const catsData = [
     {
         emotionTags: ["focused", "coding"],
         isGif: false,
-        image: "coding-cat.jpeg",
+        image: "coding-cat.jpg",
         alt: "A cat working on a computer",
         category: "coding"
     },
@@ -232,7 +232,7 @@ export const catsData = [
     {
         emotionTags: ["happy", "funny"],
         isGif: false,
-        image: "funny-cat.jpeg",
+        image: "funny-cat.jpg",
         alt: "A funny cat",
         category: "funny"
     },
@@ -252,7 +252,7 @@ export const catsData = [
     {
         emotionTags: ["shocked", "scared"],
         isGif: false,
-        image: "shocked-cat.jpeg",
+        image: "shocked-cat.jpg",
         alt: "A shocked cat",
         category: "reaction"
     },
